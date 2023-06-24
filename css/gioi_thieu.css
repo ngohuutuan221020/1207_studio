@@ -51,7 +51,7 @@ header {
 }
 header.sticky {
   height: calc(3rem + 1rem);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(0 0 0 / 21%);
   backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
@@ -209,7 +209,6 @@ header .logo {
   text-shadow: var(--text-shadow);
 }
 .navigation .nav-items a:hover {
-  color: var(--dark-color);
   text-decoration: underline;
 }
 .navigation .nav-items a i {
@@ -220,7 +219,7 @@ header .logo {
 }
 .home, .home-video {
   margin-bottom: 1rem;
-  min-height: 100vh;
+  min-height: 40vh;
 }
 /* .home::before {
   z-index: 888;
@@ -236,16 +235,19 @@ header .logo {
   cursor: pointer;
   z-index: 777;
   position: relative;
-  min-height: 100vh;
+  min-height: 40vh;
   width: 100%;
 }
 .bg-slider .swiper-slide {
+  display: flex;
   position: relative;
-  height: 100vh;
+  height: 40vh;
   width: 100%;
+  justify-content: center;
+  align-items: center;
 }
 .bg-slider .swiper-slide img {
-  height: 100vh;
+  height: 40vh;
   width: 100%;
   object-fit: cover;
   background-position: center;
@@ -263,7 +265,7 @@ header .logo {
   transition: 0.3s ease;
 }
 .swiper-slide .text-content .title {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   text-shadow: var(--text-shadow);
   margin-bottom: 15px;
@@ -415,10 +417,10 @@ footer{
     padding: 0 0 0 10%;
   }
   .swiper-slide .text-content {
-    margin: 0 40px;
+    margin: 40px;
   }
   .swiper-slide .text-content .title {
-    font-size: 1.7rem;
+    font-size: 3rem;
   }
   .bg-slider-thumbs1 {
     bottom: 2em;

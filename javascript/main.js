@@ -40,23 +40,43 @@ const btnVideo = document.querySelectorAll(".nav-btn");
 const slideVideo = document.querySelectorAll(".video-slide");
 const contentVideo = document.querySelectorAll(".content");
 var sliderNav = function (manual) {
-  btnVideo.forEach((btn)=>{
+  btnVideo.forEach((btn) => {
     btn.classList.remove("active");
-  })
+  });
   btnVideo[manual].classList.add("active");
-// --------
-slideVideo.forEach((slide)=>{
-  slide.classList.remove("active");
-  })
+  // --------
+  slideVideo.forEach((slide) => {
+    slide.classList.remove("active");
+  });
   slideVideo[manual].classList.add("active");
-// --------
-contentVideo.forEach((content)=>{
-  content.classList.remove("active");
-  })
+  // --------
+  contentVideo.forEach((content) => {
+    content.classList.remove("active");
+  });
   contentVideo[manual].classList.add("active");
 };
 btnVideo.forEach((btn, i) => {
   btn.addEventListener("click", () => {
     sliderNav(i);
   });
+});
+
+// lien he
+const inputs = document.querySelectorAll(".input");
+
+function focusFunc() {
+  let parent = this.parentNode;
+  parent.classList.add("focus");
+}
+
+function blurFunc() {
+  let parent = this.parentNode;
+  if (this.value == "") {
+    parent.classList.remove("focus");
+  }
+}
+
+inputs.forEach((input) => {
+  input.addEventListener("focus", focusFunc);
+  input.addEventListener("blur", blurFunc);
 });
