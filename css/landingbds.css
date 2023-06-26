@@ -10748,7 +10748,7 @@
         bottom: 0;
         right: 0;
         z-index: 2;
-        background-image: url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/icon-pattern-light-3.png)
+        /* background-image: url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/icon-pattern-light-3.png); */
     }
 
     .mh-section-style-3::before {
@@ -10780,7 +10780,7 @@
     }
 
     .mh-section-style-6 {
-        background: url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/bg-title-2.png) no-repeat top center;
+        /* background: url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/bg-title-2.png) no-repeat top center; */
         background-repeat: no-repeat;
         background-size: auto;
         margin: 30px 0 0
@@ -10911,8 +10911,8 @@
         padding: 5% 25% 5% 5%;
         left: -65px;
         position: relative;
-        background: #fff url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/bg-title-1.png) no-repeat top 10% left 40px;
-        width: calc(100% + 85px)
+        /* background: #fff url(//landingbds.muathemewp.com/wp-content/themes/flatsome-child/assets/img/bg-title-1.png) no-repeat top 10% left 40px; */
+        width: calc(100% + 85px);
     }
 
     .mh-col-style-2>.col-inner>h3 {

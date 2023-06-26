@@ -13,7 +13,12 @@
   --scroll-thumb-hover-color: #696969;
   --swiper-theme-color: white;
 }
-
+.section {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  
+}
 ::-webkit-scrollbar {
   
   width: 11px;
@@ -209,7 +214,7 @@ header .logo {
   text-shadow: var(--text-shadow);
 }
 .navigation .nav-items a:hover {
-  color: var(--dark-color);
+  
   text-decoration: underline;
 }
 .navigation .nav-items a i {
