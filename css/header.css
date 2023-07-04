@@ -1,0 +1,67 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(./Square721BT-RomanExtended.otf);
+}
+
+header .logo {
+    
+}
+.nav-bar .logo {
+    font-family: myFirstFont !important;
+    color: var(--white-color);
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-shadow: var(--text-shadow);
+  }
+header .nav-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    height: calc(5rem + 1rem);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s ease;
+    transition-property: height, background;
+    flex-direction: row;
+    align-items: center;
+  }
+  header.sticky {
+    height: calc(3rem + 1rem);
+    background: rgba(124 124 124 / 58%);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  }
+  .sticky .logo img {
+    width: 100px;
+    height: 100px;
+  }
+  header .nav-bar {
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+   
+  }
+  header .logo {
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    /* text-transform: uppercase; */
+    /* margin-top: 10px; */
+  }

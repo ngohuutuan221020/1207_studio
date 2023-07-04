@@ -12,21 +12,23 @@
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/scrollToTop.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" /> -->
 </head>
 
 <body>
     <!-- header -->
     <header>
         <div class="nav-bar">
-            <a href="./index.html" class="logo"><img src="C:\Users\ngohu\Pictures\14895-NQ51ZV.png" alt="" width="100"
-                    height="100"></a>
+            <a href="./index.html" class="logo">1207</a>
             <div class="navigation">
                 <div class="nav-items">
                     <i class="uil uil-times nav-close-btn"></i>
-                    <a href="./index.html"><i class="uil uil-estate"></i>Trang chủ</a>
-                    <a href="./gioi_thieu/index.html"><i class="uil uil-exclamation-circle"></i>Giới thiệu</a>
-                    <a href="./tin_tuc/index.html"><i class="uil uil-newspaper"></i>Tin tức</a>
-                    <a href="./lien_he/index.html"><i class="uil uil-envelope-edit"></i> Liên hệ</a>
+                    <a href="./index.html"><i class="uil uil-estate"></i>Homepage</a>
+                    <a href="./gioi_thieu/index.html"><i class="uil uil-exclamation-circle"></i>Introduction</a>
+                    <a href="./tin_tuc/index.html"><i class="uil uil-newspaper"></i>News</a>
+                    <a href="./lien_he/index.html"><i class="uil uil-envelope-edit"></i>Contact</a>
                 </div>
             </div>
             <i class="uil uil-apps nav-menu-btn"></i>
@@ -39,12 +41,12 @@
             <video class="video-slide" src="./video/video_2.mp4" autoplay muted loop></video>
             <video class="video-slide" src="./video/video_3.mp4" autoplay muted loop></video>
             <video class="video-slide" src="./video/video_4.mp4" autoplay muted loop></video>
-            <div class="content active">
+            <!-- <div class="content active">
                 <h1 class="text-rainbow-animation">1207studio</h1>
                 <p>Interior Designer Creates a Calm and Colourful Family Home with a Dream Outdoor Garden (House Tour)
                 </p>
-            </div>
-            <div class="content">
+            </div> -->
+            <!-- <div class="content">
                 <h1 class="text-rainbow-animation">1207studio</h1>
                 <p>Inside a Magical Restored House Originally Built In The 1960s (House Tour)</p>
             </div>
@@ -55,7 +57,7 @@
             <div class="content">
                 <h1 class="text-rainbow-animation">1207studio</h1>
                 <p>An Architect's Own Minimalist Oasis in the Inner Suburbs (House Tour)</p>
-            </div>
+            </div> -->
             <div class="media-icons">
                 <a href="https://www.facebook.com/p/1207-studio-100064006992000/" target="_blank"><i
                         class="uil uil-facebook"></i></a>
@@ -71,48 +73,61 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="1" onclick="myFunction1()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/01/152931325_112264760886198_7714363014756038124_n.jpg" alt="" />
-                        <div class="text-content">
-                            <h2 class="title">CENTANA DISTRICT 2
-                                <br><span>Location: HCM City & Binh Duong City</span>
-                            </h2>
-                            <p>Căn phòng đơn giản là một phong cách thiết kế tập trung vào sự tối giản và sự thông
-                                thoáng. Tận dụng không gian một cách hiệu quả và tránh sự cồng kềnh trong trang trí. Sử
-                                dụng màu sắc nhạt và tươi sáng như trắng, xám nhạt, xanh nhạt để tạo cảm giác rộng rãi
-                                và sáng sủa</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <p>Where luxury living meets convenience in the heart of the city center. 
+                                Our project offers a sophisticated and exclusive collection of apartments that redefine urban living. 
+                                With meticulous attention to detail and a commitment to providing the utmost comfort, 
+                                our apartments are designed to cater to your every need.</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/01/153307492_112264714219536_2346099461506616499_n.jpg" alt="" />
-                        <div class="text-content">
-                            <div class="title">Đơn giản và hợp lý về trang thiết bị<span></span></div>
-                            <p class="p-hide">Giữ cho căn phòng đơn giản bằng cách tránh quá tải không gian bằng trang
-                                thiết bị và đồ nội thất không cần thiết. Chỉ sử dụng những món đồ thiết yếu và tối giản,
-                                tạo ra không gian trống trải và thoải mái.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <p>Unparalleled Location <br>
+                                Our Apartment Project is strategically located in the bustling city center, 
+                                placing you within close proximity to major attractions, entertainment venues, 
+                                shopping malls, and renowned restaurants. Enjoy the convenience of having everything 
+                                you need right at your doorstep, making your daily life effortless and enjoyable. <br> <br>
+                                Exclusive Living Experience <br>
+                                Our Apartment Project offers a range of apartment sizes and layouts to suit your preferences and needs. 
+                                Whether you're looking for a cozy one-bedroom apartment or a spacious penthouse,
+                                 each unit is designed to maximize space and functionality. Enjoy breathtaking views of the city 
+                                 skyline and experience the epitome of luxury living.
+                            </p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/01/153635403_112264744219533_3563758025598038225_n.jpg" alt="" />
-                        <div class="text-content">
-                            <div class="title">Sử dụng vật liệu tự nhiên<span></span></div>
-                            <p class="p-hide">Tận dụng ánh sáng tự nhiên và cảnh quan xung quanh để tạo ra môi trường
-                                sống trong lành và gần gũi với thiên nhiên.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <p>Exquisite Design <br>
+                                Step into a world of elegance as you enter our apartments. 
+                                Each unit boasts a contemporary design that blends functionality with style. 
+                                The interiors are thoughtfully crafted to create a harmonious living space, 
+                                offering a perfect balance between comfort and aesthetics. 
+                                Experience a sense of tranquility and luxury from the moment you step foot in your new home.</p>
                         </div>
                     </div>
                     <div class="swiper-slide">
                         <img src="./images/01/155488945_112264717552869_3033601116185381207_n.jpg" alt="" />
-                        <div class="text-content">
-                            <div class="title">Tạo điểm nhấn sáng tạo<span></span></div>
-                            <p class="p-hide">Mặc dù căn phòng đơn giản, nhưng bạn vẫn có thể tạo điểm nhấn sáng tạo để
-                                làm nổi bật không gian. Sử dụng các chi tiết nghệ thuật, tranh ảnh trang trí, cây cảnh
-                                hoặc vật trang trí độc đáo để tạo điểm nhấn và tăng tính thẩm mỹ của căn phòng.</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="text">
+                            <p></p>
                         </div>
                     </div>
 
                 </div>
+
                 <div class="btn-arrow">
                     <div class="swiper-button-next"></div>
                     <div class="swiper-button-prev"></div>
@@ -136,11 +151,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="2" onclick="myFunction2()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/02/144514614_107228378056503_3676009015845201026_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">THE VIEW APARTMENT <br><span>HCM City I 02 02 2020</span></h2>
                             <p>Sử dụng màu sắc tối như đen, xám đậm, xanh đen hay tím đậm để tạo ra một không gian tối
                                 màu. Màu sắc tối có thể tạo ra một cảm giác ấm áp, sang trọng và lãng mạn. Kết hợp với
@@ -281,11 +296,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="3" onclick="myFunction3()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/03/313433842_505988228211406_6940861110316960419_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -337,11 +352,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="4" onclick="myFunction4()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/04/353821669_648540923986106_6788390749536964626_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -408,11 +423,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="5" onclick="myFunction5()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/05/344587869_803612517380206_1028505311363975642_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -465,11 +480,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="6" onclick="myFunction6()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/06/328851974_519189723426591_5589458899556561489_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -564,11 +579,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="7" onclick="myFunction7()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/07/326340458_2499526160199799_5663692200189028945_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -621,11 +636,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="8" onclick="myFunction8()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/08/277778534_1705601263132360_280312625040784696_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -692,11 +707,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="9" onclick="myFunction9()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/09/242262390_1557839391241882_4216361317438548117_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -805,11 +820,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="10" onclick="myFunction10()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/10/241327000_1548765778815910_7421598200478123074_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -841,11 +856,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="11" onclick="myFunction11()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/11/167419282_1433557503670072_553340428325834148_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -898,11 +913,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="12" onclick="myFunction12()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/12/149173406_1401109476914875_484550665237678048_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -969,11 +984,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="13" onclick="myFunction13()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/13/131629602_1361741884184968_6050237699726956230_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -1012,11 +1027,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="14" onclick="myFunction14()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/14/131211714_1359690991056724_4810940108478870779_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -1097,11 +1112,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="15" onclick="myFunction15()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/15/352515169_644817451025120_4922517662211081566_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -1182,11 +1197,11 @@
         </section>
         <section class="home">
             <!-- Swiper -->
-            <div class="swiper bg-slider">
+            <div class="swiper bg-slider" id="16" onclick="myFunction16()">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <img src="./images/16/350985844_192457010421885_70974015299210053_n.jpg" alt="" />
-                        <div class="text-content">
+                        <div class="text-content1">
                             <h2 class="title ">APARTMENT <br>
                                 <span>Location: Hồ Chí Minh</span>
                             </h2>
@@ -1252,6 +1267,12 @@
             </div>
         </section>
     </div>
+    <!-- scrollToTop -->
+    <div id="progress">
+        <span id="progress-value">
+            <i class="uil uil-angle-up"></i>
+        </span>
+    </div>
     <!-- footer -->
     <footer>
         <div class="footer-content">
@@ -1270,7 +1291,9 @@
         </div>
     </footer>
     <!-- javascript -->
-    <script src="./javascript/swiper-bundle.min.js"></script>
+    <!-- <script src="./javascript/swiper-bundle.min.js"></script> -->
+    <script src="./javascript/scrollToTop.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./javascript/main.js"></script>
 </body>
 

@@ -1,0 +1,45 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#progress {
+    background-color: #292929;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 70px;
+    width: 70px;
+    display: none;
+    place-items: center;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    z-index: 99999999999;
+}
+
+#progress-value {
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+    color: rgb(122, 122, 122);
+}
+
+@media screen and (max-width: 450px) {
+    #progress {
+        height: 35px;
+        width: 35px;
+
+    }
+
+    #progress-value {
+        height: 25px;
+        width: 25px;
+        justify-content: center;
+        align-content: center;
+    }
+}
