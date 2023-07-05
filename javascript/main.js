@@ -1,14 +1,7 @@
-var swiper = new Swiper(".bg-slider-thumbs1", {
-  loop: true,
-  spaceBetween: 0,
-  slidesPerView: 0,
-  freeMode: true,
-  watchSlidesProgress: true,
-});
-
+ 
 var swiper2 = new Swiper(".bg-slider", {
   slidesPerView: "auto",
-  centeredSlides: false,
+  centeredSlides: true,
   spaceBetween: 10,
   freeMode:{
     enabled: true,
@@ -92,50 +85,114 @@ inputs.forEach((input) => {
 });
 
 function myFunction1() {
-    document.getElementById("1").style.overflow = "unset";
+    var element = document.getElementById("1");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide11");
+    element1.style.width = "70%";
 }
 function myFunction2() {
-    document.getElementById("2").style.overflow = "unset";
+    var element = document.getElementById("2");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide12");
+    element1.style.width = "70%";
 }
 function myFunction3() {
-    document.getElementById("3").style.overflow = "unset";
+    var element = document.getElementById("3");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide13");
+    element1.style.width = "70%";
 }
 function myFunction4() {
-    document.getElementById("4").style.overflow = "unset";
+    var element = document.getElementById("4");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide14");
+    element1.style.width = "70%";
 }
 function myFunction5() {
-    document.getElementById("5").style.overflow = "unset";
+    var element = document.getElementById("5");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide15");
+    element1.style.width = "70%";
 }
 function myFunction6() {
-    document.getElementById("6").style.overflow = "unset";
+    var element = document.getElementById("6");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide16");
+    element1.style.width = "70%";
 }
 function myFunction7() {
-    document.getElementById("7").style.overflow = "unset";
+    var element = document.getElementById("7");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide17");
+    element1.style.width = "70%";
 }
 function myFunction8() {
-    document.getElementById("8").style.overflow = "unset";
+    var element = document.getElementById("8");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide18");
+    element1.style.width = "70%";
 }
 function myFunction9() {
-    document.getElementById("9").style.overflow = "unset";
+    var element = document.getElementById("9");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide19");
+    element1.style.width = "70%";
 }
 function myFunction10() {
-    document.getElementById("10").style.overflow = "unset";
+    var element = document.getElementById("10");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide110");
+    element1.style.width = "70%";
 }
 function myFunction11() {
-    document.getElementById("11").style.overflow = "unset";
+    var element = document.getElementById("11");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide111");
+    element1.style.width = "70%";
 }
 function myFunction12() {
-    document.getElementById("12").style.overflow = "unset";
+    var element = document.getElementById("12");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide112");
+    element1.style.width = "70%";
 }
 function myFunction13() {
-    document.getElementById("13").style.overflow = "unset";
+    var element = document.getElementById("13");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide113");
+    element1.style.width = "70%";
 }
 function myFunction14() {
-    document.getElementById("14").style.overflow = "unset";
+    var element = document.getElementById("14");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide114");
+    element1.style.width = "70%";
 }
 function myFunction15() {
-    document.getElementById("15").style.overflow = "unset";
+    var element = document.getElementById("15");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide115");
+    element1.style.width = "70%";
 }
 function myFunction16() {
-    document.getElementById("16").style.overflow = "unset";
+    var element = document.getElementById("16");
+    element.style.width = "80%"; 
+    element.style.transition = "1s ease";
+    var element1 = document.getElementById("wrapper_slide116");
+    element1.style.width = "70%";
 }
