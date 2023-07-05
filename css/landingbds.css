@@ -253,7 +253,7 @@
     }
 
     button,input,select,textarea {
-        font: inherit
+        /* font: inherit; */
     }
 
     optgroup {
@@ -261,7 +261,7 @@
     }
 
     button,input,select {
-        overflow: visible
+        /* overflow: visible; */
     }
 
     button,select {
@@ -269,7 +269,7 @@
     }
 
     [type=button],[type=reset],[type=submit],button {
-        cursor: pointer
+        /* cursor: pointer; */
     }
 
     [disabled] {
@@ -277,7 +277,7 @@
     }
 
     [type=reset],[type=submit],button,html [type=button] {
-        -webkit-appearance: button
+        /* -webkit-appearance: button; */
     }
 
     button::-moz-focus-inner,input::-moz-focus-inner {
@@ -326,7 +326,7 @@
     }
 
     *,:after,:before,html {
-        box-sizing: border-box
+        /* box-sizing: border-box; */
     }
 
     html {
@@ -377,7 +377,7 @@
     }
 
     a,button,input {
-        touch-action: manipulation
+        /* touch-action: manipulation; */
     }
 
     ins {
@@ -2779,30 +2779,30 @@
     }
 
     .button,button,input[type=button],input[type=reset],input[type=submit] {
-        text-rendering: optimizeLegibility;
-        background-color: transparent;
-        border: 1px solid transparent;
-        border-radius: 0;
-        box-sizing: border-box;
-        color: currentColor;
-        cursor: pointer;
-        display: inline-block;
-        font-size: .97em;
-        font-weight: bolder;
-        letter-spacing: .03em;
-        line-height: 2.4em;
-        margin-right: 1em;
-        margin-top: 0;
-        max-width: 100%;
-        min-height: 2.5em;
-        padding: 0 1.2em;
-        position: relative;
-        text-align: center;
-        text-decoration: none;
-        text-shadow: none;
-        text-transform: uppercase;
-        transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s;
-        vertical-align: middle
+        /* text-rendering: optimizeLegibility; */
+        /* background-color: transparent; */
+        /* border: 1px solid transparent; */
+        /* border-radius: 0; */
+        /* box-sizing: border-box; */
+        /* color: currentColor; */
+        /* cursor: pointer; */
+        /* display: inline-block; */
+        /* font-size: .97em; */
+        /* font-weight: bolder; */
+        /* letter-spacing: .03em; */
+        /* line-height: 2.4em; */
+        /* margin-right: 1em; */
+        /* margin-top: 0; */
+        /* max-width: 100%; */
+        /* min-height: 2.5em; */
+        /* padding: 0 1.2em; */
+        /* position: relative; */
+        /* text-align: center; */
+        /* text-decoration: none; */
+        /* text-shadow: none; */
+        /* text-transform: uppercase; */
+        /* transition: transform .3s,border .3s,background .3s,box-shadow .3s,opacity .3s,color .3s; */
+        /* vertical-align: middle; */
     }
 
     .button span {
@@ -2824,10 +2824,10 @@
     }
 
     .button,input[type=button].button,input[type=reset].button,input[type=submit],input[type=submit].button {
-        background-color: #446084;
-        background-color: var(--primary-color);
-        border-color: rgba(0,0,0,.05);
-        color: #fff
+        /* background-color: #446084; */
+        /* background-color: var(--primary-color); */
+        /* border-color: rgba(0,0,0,.05); */
+        /* color: #fff; */
     }
 
     .button.is-outline,input[type=button].is-outline,input[type=reset].is-outline,input[type=submit].is-outline {
@@ -2942,7 +2942,7 @@
     }
 
     .primary,input[type=submit],input[type=submit].button {
-        background-color: #446084
+        /* background-color: #446084; */
     }
 
     .primary.is-link,.primary.is-outline,.primary.is-underline {
@@ -3105,39 +3105,39 @@
     }
 
     form {
-        margin-bottom: 0
+        /* margin-bottom: 0; */
     }
 
     .select-resize-ghost,.select2-container .select2-choice,.select2-container .select2-selection,input[type=date],input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea {
-        background-color: #fff;
-        border: 1px solid #ddd;
-        border-radius: 0;
-        box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-        box-sizing: border-box;
-        color: #333;
-        font-size: .97em;
-        height: 2.507em;
-        max-width: 100%;
-        padding: 0 .75em;
-        transition: color .3s,border .3s,background .3s,opacity .3s;
-        vertical-align: middle;
-        width: 100%
+        /* background-color: #fff; */
+        /* border: 1px solid #ddd; */
+        /* border-radius: 0; */
+        /* box-shadow: inset 0 1px 2px rgba(0,0,0,.1); */
+        /* box-sizing: border-box; */
+        /* color: #333; */
+        /* font-size: .97em; */
+        /* height: 2.507em; */
+        /* max-width: 100%; */
+        /* padding: 0 .75em; */
+        /* transition: color .3s,border .3s,background .3s,opacity .3s; */
+        /* vertical-align: middle; */
+        /* width: 100%; */
     }
 
     @media(max-width: 849px) {
         .select-resize-ghost,.select2-container .select2-choice,.select2-container .select2-selection,input[type=date],input[type=email],input[type=number],input[type=password],input[type=search],input[type=tel],input[type=text],input[type=url],select,textarea {
-            font-size:1rem
+            /* font-size:1rem; */
         }
     }
 
     input:hover,select:hover,textarea:hover {
-        box-shadow: inset 0 -1.8em 1em 0 transparent
+        /* box-shadow: inset 0 -1.8em 1em 0 transparent; */
     }
 
     input[type=email],input[type=number],input[type=search],input[type=tel],input[type=text],input[type=url],textarea {
-        -webkit-appearance: none;
+        /* -webkit-appearance: none; */
         -moz-appearance: none;
-        appearance: none
+        /* appearance: none; */
     }
 
     textarea {
@@ -3146,7 +3146,7 @@
     }
 
     input[type=email]:focus,input[type=number]:focus,input[type=password]:focus,input[type=search]:focus,input[type=tel]:focus,input[type=text]:focus,select:focus,textarea:focus {
-        background-color: #fff;
+        /* background-color: #fff; */
         box-shadow: 0 0 5px #ccc;
         color: #333;
         opacity: 1 !important;
@@ -5694,11 +5694,11 @@
     }
 
     .button,button,fieldset,input,select,textarea {
-        margin-bottom: 1em
+        /* margin-bottom: 1em; */
     }
 
     blockquote,dl,figure,form,ol,p,pre,ul {
-        margin-bottom: 1.3em
+        /* margin-bottom: 1.3em; */
     }
 
     form p {
@@ -10299,9 +10299,9 @@
     }
 
     select,input,textarea,.mh-input {
-        box-shadow: none !important;
+        /* box-shadow: none !important; */
         -moz-box-shadow: none !important;
-        -webkit-box-shadow: none !important;
+        /* -webkit-box-shadow: none !important; */
         -o-box-shadow: none !important
     }
 
