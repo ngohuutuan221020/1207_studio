@@ -217,7 +217,7 @@ body {
 .home-video {
   display: flex;
   width: 800px;
-  height: 600px;
+  height: 800px;
   margin-bottom: 1rem;
   /* min-height: 100vh; */
   flex-direction: column;
