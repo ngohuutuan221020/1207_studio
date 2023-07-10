@@ -8,7 +8,7 @@ header .logo {}
 .nav-bar .logo {
   font-family: myFirstFont !important;
   color: var(--white-color);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
@@ -60,8 +60,8 @@ header .nav-bar {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  /* padding: 0 100px; */
+  justify-content: space-between;
+  padding: 0 100px;
 }
 
 header .logo {
