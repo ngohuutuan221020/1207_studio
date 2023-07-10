@@ -216,8 +216,8 @@ body {
 .home,
 .home-video {
   display: flex;
-  width: 700px;
-  height: 555px;
+  width: 800px;
+  height: 600px;
   margin-bottom: 1rem;
   /* min-height: 100vh; */
   flex-direction: column;

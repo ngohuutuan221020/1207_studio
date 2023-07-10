@@ -81,7 +81,7 @@ footer {
 .logo {
   font-family: myFirstFont !important;
   color: var(--white-color);
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: 2px;
   text-transform: uppercase;
   text-decoration: none;
